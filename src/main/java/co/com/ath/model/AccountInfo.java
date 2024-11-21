@@ -8,4 +8,6 @@ import lombok.Setter;
 public class AccountInfo {
     private String accountNumber;
     private String accountType;
+    private String accountKey;
+    private String bank;
 }

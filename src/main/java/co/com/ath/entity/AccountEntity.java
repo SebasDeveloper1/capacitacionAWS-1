@@ -20,6 +20,10 @@ public class AccountEntity {
     private String accountNumber;
     @DynamoDBAttribute(attributeName = "accountType")
     private String accountType;
+    @DynamoDBAttribute(attributeName = "accountKey")
+    private String accountKey;
+    @DynamoDBAttribute(attributeName = "bank")
+    private String bank;
     @DynamoDBAttribute(attributeName = "user")
     private UserEntity user;
 

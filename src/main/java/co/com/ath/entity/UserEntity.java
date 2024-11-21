@@ -17,4 +17,8 @@ public class UserEntity {
     private String documentType;
     @DynamoDBAttribute
     private String documentNumber;
+    @DynamoDBAttribute
+    private String email;
+    @DynamoDBAttribute
+    private String phone;
 }

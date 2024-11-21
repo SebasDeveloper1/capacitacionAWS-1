@@ -10,5 +10,7 @@ public class Request {
     private String lastName;
     private String documentType;
     private String documentNumber;
+    private String email;
+    private String phone;
     private AccountInfo accountInfo;
 }
