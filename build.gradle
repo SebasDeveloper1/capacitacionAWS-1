@@ -41,7 +41,7 @@ dependencies {
     runtimeOnly 'org.jlib:jlib-awslambda-logback:1.0.0'
 
     testCompileOnly 'org.projectlombok:lombok:1.18.24'
-    testImplementation 'junit:junit:4.13.2'
+//    testImplementation 'junit:junit:4.13.2'
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.24'
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
