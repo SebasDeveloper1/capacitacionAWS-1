@@ -1,6 +1,6 @@
 package co.com.ath.util;
 
-import co.com.ath.model.Request;
+
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.*;
 
@@ -19,7 +19,7 @@ public class Util {
     private static ObjectMapper objectMapper = new ObjectMapper();
 
     /**
-     * Metodo para convertir un objeto a String
+     * Método para convertir un objeto a String
      */
 
     public static Object string2Object(String json, Class<? extends Object> classOfT) {
@@ -34,7 +34,6 @@ public class Util {
         });
         gson = gsonBuilder.setDateFormat("yyyy-MM-dd'T'HH:mm:ss").create();
 
-        // Se cambio debido a q
         return gson.fromJson(json, classOfT);
     }
 
